@@ -14,3 +14,6 @@ C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T08\TPEncuestaWin\ob
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T08\TPEncuestaWin\obj\Debug\TPEncuestaWin.TrustInfo.xml
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T08\TPEncuestaWin\obj\Debug\TPEncuestaWin.exe.manifest
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T08\TPEncuestaWin\obj\Debug\TPEncuestaWin.application
+C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\bin\Debug\TPEncuestaWin.exe.config
+C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\obj\Debug\TPEncuestaWin.exe
+C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\obj\Debug\TPEncuestaWin.pdb
