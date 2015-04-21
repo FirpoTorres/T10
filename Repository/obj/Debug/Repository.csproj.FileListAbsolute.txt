@@ -8,8 +8,3 @@ C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\Repository\bin\D
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\Repository\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\Repository\obj\Debug\Repository.dll
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\Repository\obj\Debug\Repository.pdb
-C:\Users\Diego\Desktop\T10\Repository\bin\Debug\Repository.dll
-C:\Users\Diego\Desktop\T10\Repository\bin\Debug\Repository.pdb
-C:\Users\Diego\Desktop\T10\Repository\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\Diego\Desktop\T10\Repository\obj\Debug\Repository.dll
-C:\Users\Diego\Desktop\T10\Repository\obj\Debug\Repository.pdb
