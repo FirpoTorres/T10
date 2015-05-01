@@ -9,10 +9,10 @@ namespace Repository.Model
         private string nombre;
 
         public void SetNombre(string value){ /*crear el nombre del usuario*/
-            if (value.Length <= 128){ /*si tiene mas de 128 caracteres imprime un mensaje de error*/
+            if (value.Length >= 128){ /*si tiene mas de 128 caracteres imprime un mensaje de error*/
                 nombre = value.Substring(0, 128);
             }else{
-                nombre = value; //Console.WriteLine("ERROR: Nombre debe ser menor a 128 caracteres");
+                nombre = value; 
             }
         }
 
@@ -22,10 +22,10 @@ namespace Repository.Model
 
         private string login;
         public void SetLogin(string value){ /*crear el login del usuario*/
-            if (value.Length <= 20){ /*si es mayor a 20 caracteres imprime un mensaje de error*/
+            if (value.Length >= 20){ /*si es mayor a 20 caracteres imprime un mensaje de error*/
                 login = value.Substring(4, 20);
             }else{
-                login = value; //Console.WriteLine("ERROR: Login debe ser menor a 20 caracteres");
+                login = value; 
             }
         }
 
@@ -38,18 +38,16 @@ namespace Repository.Model
         private string password;
         public void SetPassword(string value)
         { /*crear el password del usuario*/
-            if (value.Length <= 20)
+            if (value.Length >= 20)
             { /*si el password es mayor a 20 caracteres imprime un mensaje de error*/
                 password = value.Substring(4, 20);
             }
             else
             {
-                password = value; //Console.WriteLine("ERROR: Password debe ser menor a 20 caracteres");
+                password = value; 
             }
-        }
 
-    }
-    private string SimEncrypt(string password);
+                private string SimEncrypt(string password);
 {
 
     StringBuilder inSb = new StringBuilder(password);
@@ -68,4 +66,8 @@ namespace Repository.Model
     return outSb.ToString();
 
 }
+        }
+
+    }
+
 }
