@@ -14,6 +14,9 @@ namespace Repository.Model
             }else{
                 nombre = value; 
             }
+
+
+
         }
 
         public string GetNombre(){ /*devolver el nombre del usuario*/
