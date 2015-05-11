@@ -39,6 +39,7 @@ namespace Repository.Model
 
 
         private string password;
+        
         public void SetPassword(string value)
         { /*crear el password del usuario*/
             if (value.Length >= 20)
@@ -49,28 +50,33 @@ namespace Repository.Model
             {
                 password = value; 
             }
+        }//PABLO SOLIGO: No subir codigo que no compila por favor!
 
-                private string SimEncrypt(string password);
-{
+        /* PABLO SOLIGO : Reparar esto no lo quiero hacer yo
+         * Modifico codigo solo para compile 
+        private string SimEncrypt(string password){
+            
+           
+            StringBuilder inSb = new StringBuilder(password);
+            StringBuilder outSb = new StringBuilder(password.Length);
 
-    StringBuilder inSb = new StringBuilder(password);
-    StringBuilder outSb = new StringBuilder(password.Length);
+            char c;
 
-    char c;
+            for (int i = 0; i < password.Length; i++)
+            {
+                c = inSb[i];
+                c = (char)(c ^ (char)ClaveInterna[(i+4)%4]);
+                outSb.Append(c);
 
-    for (int i = 0; i < password.Length; i++)
-    {
-        c = inSb[i];
-        c = (char)(c ^ (char)ClaveInterna[(i+4)%4]);
-        outSb.Append(c);
+            }
 
-    }
+            return outSb.ToString();
 
-    return outSb.ToString();
-
-}
         }
-
+        */
+    
     }
 
 }
+
+

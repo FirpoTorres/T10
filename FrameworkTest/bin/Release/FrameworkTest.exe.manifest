@@ -64,19 +64,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>e8CG+MpPXmFuBkdeS3JdI+RLGt4=</dsig:DigestValue>
+        <dsig:DigestValue>BAtKGHDktFyNMCIBPLSKBNXuPjI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Repository.dll" size="4096">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Repository.dll" size="5120">
       <assemblyIdentity name="Repository" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>PDLkAOdX46wU+ylSwQQlGknTrsA=</dsig:DigestValue>
+        <dsig:DigestValue>fJlDQhjhm5iQakVRy2JioXo50Rc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
