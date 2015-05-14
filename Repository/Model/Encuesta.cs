@@ -24,6 +24,7 @@ namespace ConsoleApplication1
                 idEncuesta = value;    
             }
         }
+        
 
         public int Id_tipo_encuesta
         {
