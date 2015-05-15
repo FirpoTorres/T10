@@ -12,7 +12,7 @@ namespace ConsoleApplication1
         private string pregunta;
         private string respuesta;
 
-        public string Funcion_respuesta
+        public string Prop_respuesta
         {
             get {
                 return respuesta;
@@ -26,7 +26,7 @@ namespace ConsoleApplication1
                 }
         }
 
-        public string Funcion_pregunta
+        public string Prop_pregunta
         {
             get
             {
