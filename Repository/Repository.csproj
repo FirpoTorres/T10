@@ -51,7 +51,9 @@
       <DependentUpon>DBEncuestaDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="Model\Demo.cs" />
+    <Compile Include="Model\Encuesta.cs" />
     <Compile Include="Model\PreguntaEncuesta.cs" />
+    <Compile Include="Model\Respuesta.cs" />
     <Compile Include="Model\Seleccion.cs" />
     <Compile Include="Model\Tipoencuesta.cs" />
     <Compile Include="Model\Usuario.cs" />

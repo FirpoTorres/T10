@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,6 +6,7 @@ using System.Text;
 namespace Repository.Model
 {
     class Encuesta
+    
     {
         private int idEncuesta;
         private DateTime fechaHora;
@@ -54,3 +55,5 @@ namespace Repository.Model
     
     }
 }
+    
+

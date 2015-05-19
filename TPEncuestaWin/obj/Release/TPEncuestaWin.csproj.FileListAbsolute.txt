@@ -30,3 +30,20 @@ C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\ob
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.application
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.exe
 C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.pdb
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\DBEncuesta.mdb
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\TPEncuestaWin.exe.config
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\TPEncuestaWin.exe.manifest
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\TPEncuestaWin.application
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\TPEncuestaWin.exe
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\TPEncuestaWin.pdb
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\Repository.dll
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\bin\Release\Repository.pdb
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.FrmMain.resources
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.Properties.Resources.resources
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.csproj.GenerateResource.Cache
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.TrustInfo.xml
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.exe.manifest
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.application
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.exe
+C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.pdb
