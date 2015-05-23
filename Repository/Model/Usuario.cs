@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Repository.Model
 {
-    class Usuario
+    public class Usuario
     {
         private string nombre;
 

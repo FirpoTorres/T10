@@ -15,3 +15,5 @@ C:\Users\Eduardo\Documents\GitHub\T10\Repository\bin\Release\Repository.pdb
 C:\Users\Eduardo\Documents\GitHub\T10\Repository\obj\Release\ResolveAssemblyReference.cache
 C:\Users\Eduardo\Documents\GitHub\T10\Repository\obj\Release\Repository.dll
 C:\Users\Eduardo\Documents\GitHub\T10\Repository\obj\Release\Repository.pdb
+C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\Repository\bin\Release\DBEncuesta.mdb
+C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\Repository\bin\Release\Repository.dll.config

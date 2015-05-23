@@ -47,3 +47,4 @@ C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.ex
 C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.application
 C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.exe
 C:\Users\Eduardo\Documents\GitHub\T10\TPEncuestaWin\obj\Release\TPEncuestaWin.pdb
+C:\Users\Pablo\SkyDrive\Documentos\UNLAM\TCP_CSharp\2015 C1\T10\TPEncuestaWin\bin\Release\DBEncuesta.mdb

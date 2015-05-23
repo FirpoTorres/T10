@@ -45,11 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DBEncuestaDataSet.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>DBEncuestaDataSet.xsd</DependentUpon>
-    </Compile>
+    <Compile Include="ContextRepository.cs" />
     <Compile Include="Model\Demo.cs" />
     <Compile Include="Model\Encuesta.cs" />
     <Compile Include="Model\PreguntaEncuesta.cs" />
@@ -66,17 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="DBEncuestaDataSet.xsc">
-      <DependentUpon>DBEncuestaDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="DBEncuestaDataSet.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>DBEncuestaDataSet.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="DBEncuestaDataSet.xss">
-      <DependentUpon>DBEncuestaDataSet.xsd</DependentUpon>
-    </None>
     <None Include="Model\DBScript.sql" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
