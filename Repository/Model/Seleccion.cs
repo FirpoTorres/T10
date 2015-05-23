@@ -7,6 +7,9 @@ namespace Repository.Model
     class Seleccion
     {
         private string descripcion;
+       
+        public List<ElementoSeleccion> esl = new List<ElementoSeleccion>();
+
 
         public void SetDescripcion(string value)
         {

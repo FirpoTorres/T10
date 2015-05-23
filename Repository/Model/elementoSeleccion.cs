@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ConsoleApplication1.Clase
+namespace Repository.Model
 {
-    class elementoSeleccion
+    class ElementoSeleccion
     {
         
         private int IdElementoSeleccion;
@@ -40,26 +40,23 @@ namespace ConsoleApplication1.Clase
 
         }
 
-        
-        public string Descripcion
-        {
-            
-            get
-            {
+
+        public string Descripcion {
+
+            get {
                 return descripcion;
             }
 
-            set
-            {
-                if (string.IsNullOrEmpty(value))
-                {
+            set {
+                if (string.IsNullOrEmpty(value)) {
+                    descripcion = "Sin discripcion";
+                } else {
                     descripcion = value;
                 }
-                else
-                {
-        }
+            }
+            }
 
-    }    
+        }       
 
 }
 

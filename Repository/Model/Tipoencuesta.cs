@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Repository.Model
 {
-    public class Tipoencuesta
+    public class TipoEncuesta
     {
         private int idtipoencuesta;
         private string nombre;
