@@ -13,3 +13,6 @@ C:\Users\Diego\Desktop\T10\Repository\bin\Debug\Repository.dll
 C:\Users\Diego\Desktop\T10\Repository\bin\Debug\Repository.pdb
 C:\Users\Diego\Desktop\T10\Repository\obj\Debug\Repository.dll
 C:\Users\Diego\Desktop\T10\Repository\obj\Debug\Repository.pdb
+C:\Users\Mica\Desktop\Progra\T10\Repository\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mica\Desktop\Progra\T10\Repository\obj\Debug\Repository.dll
+C:\Users\Mica\Desktop\Progra\T10\Repository\obj\Debug\Repository.pdb
