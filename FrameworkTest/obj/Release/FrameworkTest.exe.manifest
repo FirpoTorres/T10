@@ -57,36 +57,36 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FrameworkTest.exe" size="5120">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FrameworkTest.exe" size="5632">
       <assemblyIdentity name="FrameworkTest" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ZRZkW3sPUMZiWjNPRYrOik25r4o=</dsig:DigestValue>
+        <dsig:DigestValue>a1x/lQuGMeFFTQleG+V3lUX01z8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Repository.dll" size="9728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Repository.dll" size="10240">
       <assemblyIdentity name="Repository" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>5ShFsA8gWEipuuRkSxQpVTy28kE=</dsig:DigestValue>
+        <dsig:DigestValue>CvemaXGPR/nw5oyKFRJmnrUD+RM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="FrameworkTest.exe.config" size="899">
+  <file name="FrameworkTest.exe.config" size="929">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>9XxX3d1AZf7uZx0Dl6S7k9DpPDk=</dsig:DigestValue>
+      <dsig:DigestValue>WBMJ5PrhijL/FYTZ7BTjoyaEYj8=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

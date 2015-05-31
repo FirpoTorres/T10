@@ -25,11 +25,11 @@ namespace FrameworkTest.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=xpvisualstudio\\sqlexpress;Initial Catalog=DBEncuesta;User ID=sa;Passw" +
-            "ord=sa")]
-        public string ConnectionString {
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=\"..\\..\\..\\..\\Repository\\DBEncuesta.m" +
+            "db\";Persist Security Info=True")]
+        public string AccessConnectionString {
             get {
-                return ((string)(this["ConnectionString"]));
+                return ((string)(this["AccessConnectionString"]));
             }
         }
     }
