@@ -64,19 +64,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Qe1f2ERF3bactmDW7LlqSpvEPqw=</dsig:DigestValue>
+        <dsig:DigestValue>8Tc9JfXRei8/efbDHCrQeyhy7Rs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TPEncuestaWin.exe" size="7168">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TPEncuestaWin.exe" size="8704">
       <assemblyIdentity name="TPEncuestaWin" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>9YHp7M+/uzpmImDpJvibh3wsgok=</dsig:DigestValue>
+        <dsig:DigestValue>RNsdbSvwG4Fzjcwfytn8ruh3LRI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
