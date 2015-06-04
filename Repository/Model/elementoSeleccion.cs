@@ -1,62 +1,43 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 
-namespace Repository.Model
-{
-    class ElementoSeleccion
-    {
-        
-        private int IdElementoSeleccion;
-        private int IdSeleccion;
-        private string descripcion;
+namespace Repository.Model {
+  public class ElementoSeleccion {
 
-        public int idElementoSeleccion
-        {
-            get
-            {
-                return IdElementoSeleccion;
-            }
+    private String descripcion;
 
-            set
-            {
-                IdElementoSeleccion = value;
-            }
-        }
+    
+    public ElementoSeleccion()
+      : base() {
+      idElementoSeleccion = -1;
+    }
 
-        
-        public int idSeleccion
-        {
-            get
-            {
-                return IdSeleccion;
-            }
+    public ElementoSeleccion(int Key)
+      : base() {
+      idElementoSeleccion = Key;
+    }
 
-            set
-            {
-                IdSeleccion = value;
-            }
+    public String Descripcion {
+      get { return descripcion; }
+      set { descripcion = value; }
+    }
 
-        }
+    private int? idSeleccion;
+
+    public int? IdSeleccion {
+      get { return idSeleccion; }
+      set { idSeleccion = value; }
+    }
+
+    private int idElementoSeleccion;
+
+    public int IdElementoSeleccion {
+      get { return idElementoSeleccion; }
+      set { idElementoSeleccion = value; }
+    }
 
 
-        public string Descripcion {
 
-            get {
-                return descripcion;
-            }
-
-            set {
-                if (string.IsNullOrEmpty(value)) {
-                    descripcion = "Sin discripcion";
-                } else {
-                    descripcion = value;
-                }
-            }
-            }
-
-        }       
-
+  }
 }
-
