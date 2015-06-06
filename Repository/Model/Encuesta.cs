@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 using System.Text;
 
 namespace Repository.Model
 {
-    public class Encuesta
+    class Encuesta
     
     {
         private int idEncuesta;
         private DateTime fechaHora;
         private int idTipoEncuesta;
-        public List<PreguntaEncuesta> preguntas = new List<PreguntaEncuesta>(); 
 
         
 

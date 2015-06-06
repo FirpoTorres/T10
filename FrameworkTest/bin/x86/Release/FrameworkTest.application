@@ -4,14 +4,14 @@
   <description asmv2:publisher="FrameworkTest" asmv2:product="FrameworkTest" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="FrameworkTest.exe.manifest" size="4946">
+    <dependentAssembly dependencyType="install" codebase="FrameworkTest.exe.manifest" size="4945">
       <assemblyIdentity name="FrameworkTest.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>p8/fhwPP7zesG7zfuJX/gYujn7I=</dsig:DigestValue>
+        <dsig:DigestValue>KsCrC+CxyAfbMV+69xjRCd/glDg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

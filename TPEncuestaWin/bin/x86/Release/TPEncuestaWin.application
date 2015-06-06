@@ -4,14 +4,14 @@
   <description asmv2:publisher="TPEncuestaWin" asmv2:product="TPEncuestaWin" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" />
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="TPEncuestaWin.exe.manifest" size="4946">
+    <dependentAssembly dependencyType="install" codebase="TPEncuestaWin.exe.manifest" size="4945">
       <assemblyIdentity name="TPEncuestaWin.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>bTSoy9WrTllFkWkAOJ8c8/Cgw38=</dsig:DigestValue>
+        <dsig:DigestValue>X/eJCicaEtoUmHHe14izcn4Dgm8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
