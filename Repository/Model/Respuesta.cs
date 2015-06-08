@@ -5,72 +5,53 @@ using System.Text;
 
 namespace Repository.Model
 {
-    class Respuesta
+    public class Respuesta
     {
         private int idPregunta;
         private int idEncuesta;
         private string pregunta;
         private string respuesta;
 
-        public string Prop_respuesta
-        {
-            get {
-                return respuesta;
-                }
+        #region Propiedades
 
-            set {
+        public string Respuesta
+        {
+            get { return respuesta; }
+
+            set
+            {
                 if (value.Length > 512)
                 { respuesta = value.Substring(0, 511); }
                 else
                 { respuesta = value; }
-                }
+            }
         }
 
-        public string Prop_pregunta
+        public string Pregunta
         {
-            get
-            {
-                return pregunta;
-            }
+            get { return pregunta; }
 
             set
             {
                 if (value.Length > 512)
-                {
                     pregunta = value.Substring(0, 511);
-                }
                 else
-                {
                     pregunta = value;
-                }
-            
             }
         }
 
-        public int Id_Pregunta
+        public int IdPregunta
         {
-            get {
-                return idPregunta;
-                }
-
-            set {
-                idPregunta = value;
-                }
+            get { return idPregunta; }
+            set { idPregunta = value; }
         }
 
-        public int Id_Respuesta
+        public int IdRespuesta
         {
-            get
-            {
-                return idEncuesta;
-            }
-
-            set
-            {
-                idEncuesta = value;
-            }
+            get { return idEncuesta; }
+            set { idEncuesta = value; }
         }
-   
+
+        #endregion
     }
 }
-

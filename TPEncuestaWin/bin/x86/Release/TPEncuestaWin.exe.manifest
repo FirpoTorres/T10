@@ -57,36 +57,36 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Repository.dll" size="9728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Repository.dll" size="10240">
       <assemblyIdentity name="Repository" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>8Tc9JfXRei8/efbDHCrQeyhy7Rs=</dsig:DigestValue>
+        <dsig:DigestValue>4m7xZU5eEEPULNhnWz3/tX25ecs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TPEncuestaWin.exe" size="8704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TPEncuestaWin.exe" size="9728">
       <assemblyIdentity name="TPEncuestaWin" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>RNsdbSvwG4Fzjcwfytn8ruh3LRI=</dsig:DigestValue>
+        <dsig:DigestValue>bPiDGKGVToN6ZmnY71pdDuvoNX8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="TPEncuestaWin.exe.config" size="899">
+  <file name="TPEncuestaWin.exe.config" size="885">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>JXrLENybZtqRANEkcmZHs3k7xrU=</dsig:DigestValue>
+      <dsig:DigestValue>9AMIereCH1OwOHOGRKg2BgwQsxk=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

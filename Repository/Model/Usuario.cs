@@ -7,6 +7,11 @@ namespace Repository.Model
     public class Usuario
     {
         private string nombre;
+        private string login;
+        private string password;
+        private string ClaveInterna;
+
+        #region Propiedades
         public string Nombre
         {
             get
@@ -25,7 +30,7 @@ namespace Repository.Model
                 }
             }
         }
-        private string login;
+
         public string Login
         {
             get
@@ -46,7 +51,6 @@ namespace Repository.Model
 
         }
 
-        private string password;
         public string Password
         {
             //get { }
@@ -64,7 +68,6 @@ namespace Repository.Model
 
         }
 
-        private string ClaveInterna;
         private string SimEncrypt(string password)
         {
             StringBuilder inSb = new StringBuilder(password);
@@ -80,6 +83,7 @@ namespace Repository.Model
             }
             return outSb.ToString();
         }
+        #endregion
 
     }
 }

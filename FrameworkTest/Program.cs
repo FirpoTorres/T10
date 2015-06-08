@@ -31,6 +31,9 @@ namespace FrameworkTest {
             Console.WriteLine(u.Login+", "+u.Nombre);
         }
 
+        foreach(TipoEncuesta te in cx.GetTiposEncuesta()){
+            Console.WriteLine(te.Nombre);
+        }
        
 
         Console.ReadKey();

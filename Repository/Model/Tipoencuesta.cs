@@ -7,31 +7,20 @@ namespace Repository.Model
 {
     public class TipoEncuesta
     {
-        private int idtipoencuesta;
+        private int idTipoEncuesta;
         private string nombre;
 
-        /*--- PROPIEDADES ---*/
+        #region Propiedades
 
-        public int Idtipoencuesta
+        public int IdTipoEncuesta
         {
-            get
-            {
-                return idtipoencuesta; 
-                
-            }
-            set
-            {
-                idtipoencuesta = value; 
-            }
-
+            get { return idTipoEncuesta; }
+            set { idTipoEncuesta = value; }
         }
 
         public string Nombre
         {
-            get
-            {
-                return nombre; 
-            }
+            get { return nombre; }
 
             set
             {
@@ -45,5 +34,7 @@ namespace Repository.Model
                 }
             }
         }
+
+        #endregion
     }
 }

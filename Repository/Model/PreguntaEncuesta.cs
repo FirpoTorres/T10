@@ -4,68 +4,44 @@ using System.Text;
 
 namespace Repository.Model
 {
-    public class PreguntaEncuesta  //PREGUNTAS ABIERTAS
+    public class PreguntaEncuesta
     {
-        private int idPreguntaEncuesta; //ATRIBUTO 1
+        private int idPreguntaEncuesta;
+        private int idTipoEncuesta;
+        private string pregunta;
+        private int idSeleccion;
+        private List<ElementoSeleccion> opciones = new List<ElementoSeleccion>();
 
-        public int IDpreguntaencuesta
+        #region Propiedades
+        public int IdPreguntaEncuesta
         {
-            get
-            {
-                return idPreguntaEncuesta;
-            }
-            set
-            {
-                idPreguntaEncuesta = value;
-            }
+            get { return idPreguntaEncuesta; }
+            set { idPreguntaEncuesta = value; }
         }
 
-        private int idTipoEncuesta; //ATRIBUTO 2
-
-        public int IDtipoencuesta
+        public int IdTipoEncuesta
         {
-            get
-            {
-                return idTipoEncuesta;
-            }
-            set
-            {
-                idTipoEncuesta = value;
-            }
+            get { return idTipoEncuesta; }
+            set { idTipoEncuesta = value; }
         }
 
-        private string pregunta;    //ATRUBUTO 3
-
-        public void SetPregunta(string value)
+        public string Pregunta
         {
-            if (value.Length >= 512)
-            {
-                pregunta = value.Substring(0, 512);
-            }
-            else
-            {
-                pregunta = value;
-            }
+            get { return pregunta; }
+            set { pregunta = value; }
+        }
+        public int IdSeleccion
+        {
+            get { return idSeleccion; }
+            set { idSeleccion = value; }
         }
 
-        public string GetPregunta()
+        public List<ElementoSeleccion> Opciones
         {
-            return pregunta;
+            get { return opciones; }
+            set { opciones = value; }
         }
 
-        private int idSeleccion;    //ATRIBUTO 4
-
-        public int IDseleccion
-        {
-            get
-            {
-                return idSeleccion;
-            }
-            set
-            {
-                idSeleccion = value;
-            }
-        }
-
-    }
+        #endregion
+    }        
 }
